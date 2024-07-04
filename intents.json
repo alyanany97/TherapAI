@@ -1,0 +1,104 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you?", "Is anyone there?", "Good day", "What's up"],
+        "responses": [
+          "Hello! How can I support you today?",
+          "Hi there! I'm here to listen and help. How are you feeling?",
+          "Greetings! I'm your mental health assistant. What's on your mind?",
+          "Hello! I'm here to chat about mental health. How can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "I am leaving", "Have a good day", "Take care"],
+        "responses": [
+          "Take care! Remember, it's okay to reach out for help when you need it.",
+          "Goodbye! I hope our chat was helpful. Don't hesitate to return if you need support.",
+          "Take care of yourself! Remember, your mental health is important.",
+          "Farewell! Remember, you're not alone in your journey to better mental health."
+        ]
+      },
+      {
+        "tag": "anxiety",
+        "patterns": ["I'm feeling anxious", "How do I deal with anxiety?", "I can't stop worrying", "I'm always nervous"],
+        "responses": [
+          "Anxiety can be challenging. Have you tried any relaxation techniques like deep breathing or meditation?",
+          "It's normal to feel anxious sometimes. Consider talking to a therapist for professional guidance.",
+          "Anxiety often stems from uncertain situations. Try to focus on things within your control.",
+          "Regular exercise and a healthy diet can help manage anxiety. Have you considered incorporating these into your routine?"
+        ]
+      },
+      {
+        "tag": "depression",
+        "patterns": ["I'm feeling depressed", "I'm always sad", "I don't enjoy anything anymore", "I feel hopeless"],
+        "responses": [
+          "I'm sorry you're feeling this way. Depression is a serious condition, and it's important to seek professional help.",
+          "Remember, depression is not your fault. Have you considered talking to a therapist or counselor?",
+          "Small steps can help. Try to set tiny, achievable goals each day, even if it's just getting out of bed or taking a short walk.",
+          "Your feelings are valid. Remember that depression is treatable, and there are people who can help you through this."
+        ]
+      },
+      {
+        "tag": "stress",
+        "patterns": ["I'm stressed out", "How can I manage stress?", "I'm overwhelmed", "I can't handle the pressure"],
+        "responses": [
+          "Stress can be overwhelming. Have you tried any stress-management techniques like mindfulness or yoga?",
+          "It's important to take breaks and practice self-care when you're feeling stressed. What activities help you relax?",
+          "Sometimes, breaking big tasks into smaller, manageable steps can help reduce stress. Would you like to discuss this approach?",
+          "Regular exercise can be a great stress-buster. Have you considered incorporating some physical activity into your routine?"
+        ]
+      },
+      {
+        "tag": "self_care",
+        "patterns": ["How can I take care of myself?", "What is self-care?", "I need to focus on myself", "How to improve mental health"],
+        "responses": [
+          "Self-care is crucial for mental health. It can include activities like exercise, healthy eating, getting enough sleep, and doing things you enjoy.",
+          "Taking time for yourself is important. This could mean reading a book, taking a bath, or simply sitting quietly for a few minutes each day.",
+          "Self-care looks different for everyone. What activities make you feel refreshed and recharged?",
+          "Remember, self-care isn't selfish. It's necessary for maintaining good mental health and being able to help others."
+        ]
+      },
+      {
+        "tag": "therapy",
+        "patterns": ["Should I see a therapist?", "How does therapy work?", "I'm considering counseling", "Is therapy effective?"],
+        "responses": [
+          "Therapy can be very helpful for many people. It provides a safe space to discuss your feelings and learn coping strategies.",
+          "A therapist can offer professional guidance and support. If you're struggling, it might be worth considering.",
+          "Therapy works differently for everyone, but it often involves talking through your problems and learning new ways to manage them.",
+          "Many people find therapy effective for improving their mental health. It's a courageous step to seek help when you need it."
+        ]
+      },
+      {
+        "tag": "crisis",
+        "patterns": ["I want to hurt myself", "I'm thinking of suicide", "I can't go on", "I want to die"],
+        "responses": [
+          "I'm very concerned about what you're saying. Please know that you're not alone. Can I provide you with a crisis hotline number?",
+          "Your life matters. If you're having thoughts of suicide, it's crucial to reach out to a mental health professional or a crisis helpline immediately.",
+          "I'm sorry you're in so much pain. Please remember that there are people who want to help. Let's find some immediate support for you.",
+          "These feelings are intense, but they can pass. Your safety is the most important thing right now. Can we talk about getting you some immediate help?"
+        ]
+      },
+      {
+        "tag": "positive_affirmation",
+        "patterns": ["I need encouragement", "Can you motivate me?", "I need a boost", "Tell me something positive"],
+        "responses": [
+          "You're stronger than you know. Every step forward, no matter how small, is progress.",
+          "Your feelings are valid, and it's okay to have bad days. Remember, you've overcome difficult times before.",
+          "You're doing the best you can, and that's enough. Be kind to yourself.",
+          "Your mental health journey is important. I'm proud of you for seeking support and working on yourself."
+        ]
+      },
+      {
+        "tag": "gratitude",
+        "patterns": ["How can I be more grateful?", "What is gratitude practice?", "I want to appreciate life more"],
+        "responses": [
+          "Practicing gratitude can boost mental health. Try writing down three things you're grateful for each day.",
+          "Gratitude can shift our focus to positive aspects of life. Can you think of one thing you're thankful for right now?",
+          "Appreciating small joys can make a big difference. Maybe start by noticing pleasant moments in your day, like a warm cup of tea or a kind gesture.",
+          "Gratitude practice is about acknowledging good things in life. It can be as simple as saying 'thank you' more often or keeping a gratitude journal."
+        ]
+      }
+    ]
+  }
